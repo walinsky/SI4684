@@ -1,0 +1,15 @@
+## IDF Component Manager Manifest File
+name: walinsky/SI4684
+version: "0.0.1"
+license: "MIT"
+description: "This component integrates all si4684 commands."
+
+targets:
+  - esp32
+
+dependencies:
+  ## Required IDF version
+  idf: ">=5.5.0"
+
+url: https://github.com/walinsky/SI4684.git
+repository: https://github.com/walinsky/SI4684.git
